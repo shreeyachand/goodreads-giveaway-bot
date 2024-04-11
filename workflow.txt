@@ -1,0 +1,22 @@
+sign into Goodreads
+
+
+visit Giveaways page
+
+
+click "next page" until all Giveaways after specified date are pulled up
+
+
+format each giveaway into a giveaway object (?)
+
+
+iterate through giveaway objects
+
+
+determine whether to enter giveaway
+
+
+if entering, click two buttons to enter & check if age requirement
+
+
+move to next giveaway
