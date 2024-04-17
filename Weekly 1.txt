@@ -1,6 +1,0 @@
-Monday - absent
-Tuesday - absent
-Wednesday - off
-Thursday - I typed up the workflow for the automation and also experimented with some Selenium code I have written to browse other websites. I successfully passed my credentials to the Goodreads website to login and visit the Giveaways page.
-
-Friday - I researched Selenium and how to make a valid request to a website that blocks web scraping. https://selenium-python.readthedocs.io/ https://stackoverflow.com/questions/76611310/how-to-mimic-like-a-human-while-using-selenium-webdriver

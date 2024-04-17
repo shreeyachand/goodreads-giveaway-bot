@@ -1,0 +1,14 @@
+Monday - absent
+Tuesday - absent
+Wednesday - off
+Thursday - I typed up the workflow for the automation and also experimented with some Selenium code I have written to browse other websites. I successfully passed my credentials to the Goodreads website to login and visit the Giveaways page.
+
+Friday - I researched Selenium and how to make a valid request to a website that blocks web scraping. https://selenium-python.readthedocs.io/ https://stackoverflow.com/questions/76611310/how-to-mimic-like-a-human-while-using-selenium-webdriver
+
+Week of 4/15:
+
+Monday - Code - experimented with more ways to get different types of elements in Selenium. 
+
+Tuesday - Today I looked into the object oriented part of web elements in Selenium and XPATHs. I'm trying to get each "article" for giveaways as an object and then the individual pieces of data for each rather than visiting each separate link and then getting the data.
+https://www.w3schools.com/xml/xpath_intro.asp
+https://www.browserstack.com/guide/xpath-in-selenium
