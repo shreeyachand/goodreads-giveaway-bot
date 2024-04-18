@@ -8,7 +8,9 @@ Friday - I researched Selenium and how to make a valid request to a website that
 Week of 4/15:
 
 Monday - Code - experimented with more ways to get different types of elements in Selenium. 
-
-Tuesday - Today I looked into the object oriented part of web elements in Selenium and XPATHs. I'm trying to get each "article" for giveaways as an object and then the individual pieces of data for each rather than visiting each separate link and then getting the data.
+Tuesday - Code
+Wednesday - Today I looked into the object oriented part of web elements in Selenium and XPATHs. I'm trying to get each "article" for giveaways as an object and then the individual pieces of data for each rather than visiting each separate link and then getting the data.
 https://www.w3schools.com/xml/xpath_intro.asp
 https://www.browserstack.com/guide/xpath-in-selenium
+
+Thursday - Today I continued looking into XPATH. From the code for tdoay you can see that I found a long way to get my specific data of interest using XPATH. I can now write some decent, but probably slow logic to go through the list of giveaways.
