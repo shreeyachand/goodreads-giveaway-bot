@@ -14,3 +14,8 @@ https://www.w3schools.com/xml/xpath_intro.asp
 https://www.browserstack.com/guide/xpath-in-selenium
 
 Thursday - Today I continued looking into XPATH. From the code for tdoay you can see that I found a long way to get my specific data of interest using XPATH. I can now write some decent, but probably slow logic to go through the list of giveaways.
+Friday - absent (prom)
+
+Week of 4/22:
+Monday - absent
+Tuesday - Code + Today I dealt with more XPATHs, compiling authors and book descriptions in addition to titles. In experimenting with this, I also was able to make my XPATHs much more concise and it's now not as time-consuming to write them out as I previously thought because all class names are not required. Tomorrow I will iterate through the lists to create a simple command line interface and click the enter giveaway button.
