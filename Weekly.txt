@@ -28,3 +28,4 @@ Monday - absent
 Tuesday - absent
 Wednesday - Today, I didn't do a lot of coding but I researched machine learning models for the decision-making part of the project. On huggingface, I found some binary text-classification models such as this one: https://huggingface.co/autoevaluate/binary-classification. Additionally, I did some research on transformers vs. other types of models (such as traditional neural networks) to see what would best work for my data. I think it would be easiest fine-tune a transformer model rather than vectorizing my inputs which come in multiple forms, like description, category, author.
 https://blogs.nvidia.com/blog/what-is-a-transformer-model/ 
+Thursday - Code - today I took a break from the machine learning stuff and attempted to write a while loop to click the button to get more giveaways on the page as long as they were still newly posted on today's date. Unfortunately I tried and failed at fetching the date element. 
