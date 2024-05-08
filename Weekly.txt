@@ -30,3 +30,8 @@ Wednesday - Today, I didn't do a lot of coding but I researched machine learning
 https://blogs.nvidia.com/blog/what-is-a-transformer-model/ 
 Thursday - Code - today I took a break from the machine learning stuff and attempted to write a while loop to click the button to get more giveaways on the page as long as they were still newly posted on today's date. Unfortunately I tried and failed at fetching the date element. 
 Friday - Code - today I searched the Goodreads HTML for the element for pagination, getting the next 100 giveaways or so. I need to click this element through my code to fetch more giveaways.
+
+Week of 5/6:
+Monday - code
+Tuesday - code
+Wednesday - code - did testing of my final script and debugged some errors - https://stackoverflow.com/questions/21350605/python-selenium-click-on-button. There are some instances in which the "more" button is unclickable for some reason. I also researched how to make the webdriver "headless" so it doesn't actually open chrome. https://www.browserstack.com/guide/headless-browser-testing-selenium-python

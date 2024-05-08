@@ -1,8 +1,9 @@
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import time
 
+#options = webdriver.ChromeOptions()
+#options.add_argument("--headless=new")
 driver = webdriver.Chrome()
 driver.delete_all_cookies()
 
