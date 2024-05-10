@@ -35,3 +35,5 @@ Week of 5/6:
 Monday - code
 Tuesday - code
 Wednesday - code - did testing of my final script and debugged some errors - https://stackoverflow.com/questions/21350605/python-selenium-click-on-button. There are some instances in which the "more" button is unclickable for some reason. I also researched how to make the webdriver "headless" so it doesn't actually open chrome. https://www.browserstack.com/guide/headless-browser-testing-selenium-python
+Thursday - absent
+Friday - tested my code more so the script finally runs correctly. went to chorus for the rest of class. 

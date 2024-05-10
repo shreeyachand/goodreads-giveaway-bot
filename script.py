@@ -14,6 +14,7 @@ while not signed_in:
     driver.find_element(by=By.NAME, value="email").send_keys("chshreeya@gmail.com")
     driver.find_element(by=By.NAME, value="password").send_keys("Books@1234")
     driver.find_element(by=By.ID, value="signInSubmit").click()
+    print(driver.current_url)
     if driver.current_url == "https://www.goodreads.com/":
         signed_in = True
     time.sleep(3)
@@ -32,8 +33,11 @@ today
 print('finding giveaways...')
 dates = list(map(lambda x: x.text.split(" - ")[0], driver.find_elements(By.XPATH, "//article/div/div/div[@class='GiveawayMetadata__entryData']")))
 while dates[-1] == today:
-    driver.find_element(By.XPATH, "//div[@class='Divider Divider--contents Divider--largeMargin']/div/button").click()
-    dates = list(map(lambda x: x.text, driver.find_elements(By.XPATH, "//article/div/div/div/div/div/div/div[@class='GiveawayMetadata__entryData']")))
+    try:
+        driver.find_element(By.XPATH, "//div[@class='Divider Divider--contents Divider--largeMargin']/div/button").click()
+        dates = list(map(lambda x: x.text, driver.find_elements(By.XPATH, "//article/div/div/div/div/div/div/div[@class='GiveawayMetadata__entryData']")))
+    except:
+        time.sleep(2)
 
 titles = list(map(lambda x: x.text, driver.find_elements(By.XPATH, "//article/div/div[@class='BookListItem__title']/h3/strong/a")))
 authors = list(map(lambda x: x.text, driver.find_elements(By.XPATH, "//article/div/div/h3/div/span/a/span[@class='ContributorLink__name']")))
